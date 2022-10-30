@@ -139,7 +139,7 @@ function drawUI() {
             if (entry.ttnt == 0) {
                 timetext = "正在離開|Departing";
             } else if (entry.ttnt == 1) {
-                timetext = "2 分鐘| 2 min";
+                timetext = "正在離開|Departing";
             } else {
                 timetext = "分鐘|min";
             }
