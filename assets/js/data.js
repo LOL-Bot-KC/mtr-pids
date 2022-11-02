@@ -264,8 +264,8 @@ const UIPreset = {
         eta: "'Myriad Pro Semibold', 'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
         chinFontSpacing: "normal",
         titleWidth: 92,
-        ETAWidth: 94,
-        fontWeight: 600,
+        ETAWidth: 100,
+        fontWeight: 400,
         fontRatio: 0.8
     },
     "TML": {
