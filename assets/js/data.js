@@ -144,38 +144,33 @@ let advData = {
         {
             id: 1,
             framesrc: './adv/paxLoad.html',
-            duration: 10000,
+            duration: 5000,
             isPaxLoad: true
         },
         {
             id: 2,
             framesrc: './adv/0.html',
-            duration: 10000
+            duration: 5000
         },
         {
             id: 3,
             framesrc: './adv/1.html',
-            duration: 10000
+            duration: 5000
         },
         {
             id: 4,
             framesrc: './adv/2.html',
-            duration: 10000
+            duration: 5000
         },
         {
             id: 5,
             framesrc: './adv/3.html',
-            duration: 10000
+            duration: 5000
         },
         {
             id: 6,
             framesrc: './adv/4.html',
-            duration: 10000
-        },
-        {
-            id: 7,
-            framesrc: './adv/5.html',
-            duration: 10000
+            duration: 5000
         }
     ],
     special: [{
@@ -268,8 +263,8 @@ const UIPreset = {
         platformCircle: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
         eta: "'Myriad Pro Semibold', 'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
         chinFontSpacing: "normal",
-        titleWidth: 95,
-        ETAWidth: 95,
+        titleWidth: 92,
+        ETAWidth: 93,
         fontWeight: 600,
         fontRatio: 1
     },
