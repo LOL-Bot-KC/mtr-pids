@@ -171,6 +171,11 @@ let advData = {
             id: 6,
             framesrc: './adv/4.html',
             duration: 10000
+        },
+        {
+            id: 7,
+            framesrc: './adv/5.html',
+            duration: 10000
         }
     ],
     special: [{
