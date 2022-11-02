@@ -285,10 +285,10 @@ const UIPreset = {
         platformCircle: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
         eta: "'Myriad Pro Semibold', 'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
         chinFontSpacing: "3rem",
-        titleWidth: 95,
-        ETAWidth: 95,
+        titleWidth: 92,
+        ETAWidth: 93,
         fontWeight: 600,
-        fontRatio: 1
+        fontRatio: 0.8
     },
     "TWL": {
         title: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
