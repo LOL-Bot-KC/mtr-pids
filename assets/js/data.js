@@ -266,7 +266,7 @@ const UIPreset = {
         titleWidth: 92,
         ETAWidth: 93,
         fontWeight: 600,
-        fontRatio: 1
+        fontRatio: 0.8
     },
     "TML": {
         title: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
