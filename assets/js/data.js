@@ -267,6 +267,17 @@ const UIPreset = {
         titleWidth: 92,
         ETAWidth: 93,
         fontWeight: 600,
+        fontRatio: 0.8    
+    },
+    "SIL": {
+        title: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
+        arrivals: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
+        platformCircle: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
+        eta: "'Myriad Pro Semibold', 'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
+        chinFontSpacing: "normal",
+        titleWidth: 92,
+        ETAWidth: 93,
+        fontWeight: 600,
         fontRatio: 0.8
     },
     "TML": {
