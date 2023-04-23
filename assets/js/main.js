@@ -135,7 +135,7 @@ function drawUI() {
         let timetext = "";
         let time = getETAmin(entry.ttnt, false);
 
-        if (stnCode == 'CEN', 'TSW', 'HOK', 'TUC') {
+        if (entry.isDeparture == true) {
             if (entry.ttnt == 0) {
                 timetext = "";
             } else if (entry.ttnt == 1) {
