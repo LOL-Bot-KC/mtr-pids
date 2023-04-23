@@ -288,9 +288,9 @@ const UIPreset = {
         eta: "'Myriad Pro Semibold', 'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
         chinFontSpacing: "normal",
         fontWeight: 600,
-        titleWidth: 95,
-        ETAWidth: 95,
-        fontRatio: 0.9
+        titleWidth: 92,
+        ETAWidth: 93,
+        fontRatio: 0.8
     },
     "TML": {
         title: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
@@ -313,17 +313,7 @@ const UIPreset = {
         ETAWidth: 93,
         fontWeight: 600,
         fontRatio: 0.8
-    },
-    "TWL": {
-        title: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
-        arrivals: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
-        platformCircle: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
-        eta: "'Myriad Pro Semibold', 'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
-        chinFontSpacing: "3.5rem",
-        titleWidth: 95,
-        ETAWidth: 95,
-        fontWeight: 400,
-        fontRatio: 1.1
+
     }
 }
 
