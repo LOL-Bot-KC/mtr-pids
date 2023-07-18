@@ -120,8 +120,10 @@ const RouteList = {
     'TWL': new Route('TWL', ETA_API.MTR_OPEN, '荃灣綫|Tsuen Wan Line', 'ED1D24', false, true, ["TSW", "CEN"], ["TSW", "TWH", "KWH", "KWF", "LAK", "MEF", "LCK", "CSW", "SSP", "PRE", "MOK", "YMT", "JOR", "TST", "ADM", "CEN"]),
     'AEL': new Route('AEL', ETA_API.MTR_OPEN, '機場快綫|Airport Express', '00888a', false, false, ["AWE", "HOK"], ["HOK", "KOW", "TSY", "AIR", "AWE"]),
     'EAL': new Route('EAL', ETA_API.MTR, '東鐵綫|East Rail Line', '53b7e8', false, true, ["LOW", "ADM"], ["ADM", "EXC", "HUH", "MKK", "KOT", "TAW", "SHT", "RAC", "FOT", "UNI", "TAP", "TWO", "FAN", "SHS", "LOW", "LMC"]),
-    'DRL': new Route('DRL', ETA_API.METRO_RIDE, '迪士尼綫|Disneyland Resorts Line', 'f173ac', false, false, ["SUN", "DIS"], ["SUN", "DIS"]),
+    'DRL': new Route('DRL', ETA_API.METRO_RIDE, '迪士尼綫|Disneyland Resort Line', 'f173ac', false, false, ["SUN", "DIS"], ["SUN", "DIS"]),
     'SIL': new Route('SIL', ETA_API.MTR_OPEN, '南港島綫|South Island Line', 'bac429', false, false, ["SOH", "ADM"], ["ADM", "OCP", "WCH", "LET", "SOH"]),
+    'ISL': new Route('ISL', ETA_API.MTR_OPEN, '港島綫|Island Line', '007dc5', false, false, ["KET", "CHW"], ["KET", "HKU", "SYP", "SHW", "CEN", "ADM", "WAC", "CAB", "TIH", "FOT", "NOP", "QUB", "SWH", "SKW", "HFC", "CHW"]),
+    'KTL': new Route('KTL', ETA_API.MTR_OPEN, '觀塘綫|Kwun Tong Line', '00AB4E', false, false, ["WHA", "TIK"], ["WHA", "HOM", "YMT", "MOK", "PRE", "SKM", "KOT", "LOF", "WTS", "DIH", "CHH", "KOB", "NTK", "KWT", "LAT", "YAT", "TIK"]),
     'LRT': new Route('LRT', ETA_API.MTR_LR, '輕鐵|Light Rail', 'd3a809', true, false, [], ["1", "10", "15", "20", "30", "40", "50", "60", "70", "75", "80", "90", "100", "110", "120", "130", "140", "150", "160", "170", "180", "190", "200", "212", "220", "230", "240", "250", "260", "265", "270", "275", "280", "295", "300", "310", "320", "330", "340", "350", "360", "370", "380", "390", "400", "425", "430", "435", "445", "448", "450", "455", "460", "468", "480", "490", "500", "510", "520", "530", "540", "550", "560", "570", "580", "590", "600", "920"]),
     'LR505': new Route('505', ETA_API.MTR_LR, '輕鐵 505|Light Rail 505', 'da2128', true, false, [], ["1", "10", "15", "20", "30", "40", "50", "60", "70", "75", "80", "90", "100", "110", "120", "130", "140", "150", "160", "170", "180", "190", "200", "212", "220", "230", "240", "250", "260", "265", "270", "275", "280", "295", "300", "310", "320", "330", "340", "350", "360", "370", "380", "390", "400", "425", "430", "435", "445", "448", "450", "455", "460", "468", "480", "490", "500", "510", "520", "530", "540", "550", "560", "570", "580", "590", "600", "920"], true),
     'LR507': new Route('507', ETA_API.MTR_LR, '輕鐵 507|Light Rail 507', '00a650', true, false, [], ["1", "10", "15", "20", "30", "40", "50", "60", "70", "75", "80", "90", "100", "110", "120", "130", "140", "150", "160", "170", "180", "190", "200", "212", "220", "230", "240", "250", "260", "265", "270", "275", "280", "295", "300", "310", "320", "330", "340", "350", "360", "370", "380", "390", "400", "425", "430", "435", "445", "448", "450", "455", "460", "468", "480", "490", "500", "510", "520", "530", "540", "550", "560", "570", "580", "590", "600", "920"], true),
@@ -304,6 +306,28 @@ const UIPreset = {
         fontRatio: 0.8
     },
     "TWL": {
+        title: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
+        arrivals: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
+        platformCircle: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
+        eta: "'Myriad Pro Semibold', 'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
+        chinFontSpacing: "normal",
+        titleWidth: 95,
+        ETAWidth: 95,
+        fontWeight: 400,
+        fontRatio: 0.8
+    },
+    "ISL": {
+        title: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
+        arrivals: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
+        platformCircle: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
+        eta: "'Myriad Pro Semibold', 'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
+        chinFontSpacing: "normal",
+        titleWidth: 95,
+        ETAWidth: 95,
+        fontWeight: 400,
+        fontRatio: 0.8
+    },
+    "KTL": {
         title: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
         arrivals: "'Myriad Pro Semibold', 'Noto Sans', 'Noto Serif TC'",
         platformCircle: "'Myriad Pro', 'Noto Sans', 'Noto Serif TC'",
